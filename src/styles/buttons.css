@@ -1,0 +1,23 @@
+button {
+  height: 1.5rem;
+  width: 4rem;
+  margin: 0.5rem;
+  background: black;
+  color: white;
+
+  border-radius: 0.3rem;
+  border: 1px solid black;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .buttons {
+    flex-direction: column;
+  }
+}
